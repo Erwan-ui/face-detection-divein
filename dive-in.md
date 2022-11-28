@@ -91,7 +91,7 @@ src/Components
 | onRouteChange | Function  | Method triggering conditional display of components on route change |
 | isDarkMode | Boolean  | Trigger variable to display or not dark mode |
           
-### <Profile/>
+**<Profile/>**
 
 ```js 
  <Profile isDarkMode={isDarkMode} user={user} onRouteChange={this.onRouteChange} />
@@ -112,7 +112,7 @@ src/Components
 | onRouteChange | Function  | Method triggering conditional display of components on route change |
 | isDarkMode | Boolean  | Trigger variable to display or not dark mode |
   
-### <Logo/>
+**<Logo/>**
 
 ```js 
  <Logo isDarkMode={isDarkMode} />
@@ -131,7 +131,7 @@ src/Components
 | -------- | ---- | ----------- |
 | isDarkMode | Boolean  | Trigger variable to display or not dark mode |
 
-### <Rank />
+**<Rank />**
 
 ```js 
  <Rank name={user.name} entries={user.entries} isDarkMode={isDarkMode}/>
@@ -152,7 +152,7 @@ src/Components
 | entries | function  | Rank of the user (number of entries) |
 | isDarkMode | Boolean  | Trigger variable to display or not dark mode |
 
-### <ImageLinkForm />
+**<ImageLinkForm />**
 
 ```js 
 <ImageLinkForm onInputChange={this.onInputChange} onPictureSubmit={this.onPictureSubmit} isDarkMode={isDarkMode} />
@@ -175,7 +175,7 @@ src/Components
 
        
 
-### <FaceRecognition/>
+**<FaceRecognition/>**
 
 **Description**
 
